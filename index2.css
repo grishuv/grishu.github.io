@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.teddy-image {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.password-section {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8eafc8;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#errorText {
+  color: #ff0000;
+  text-align: center;
+  margin-top: 10px;
+}

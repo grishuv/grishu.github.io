@@ -1,0 +1,98 @@
+/* ... Previous CSS rules ... */
+
+/* Additional CSS for the second page */
+body.next-page {
+  background-image: url("https://i.pinimg.com/564x/23/d5/14/23d514e3d15baf1c2e3e68fe179d2db5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+header h1 {
+  font-size: 100px;
+  color: #04181f3e;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.changing-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#textAnimation::after {
+  content: "Hello, welcome!";
+  font-size: 60px;
+  font-family: "Mongolian Baliti", Times, serif,bold;
+  color: #04181f3e;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  animation: textChange 5s infinite;
+}
+
+/* Keyframes for text changing animation */
+@keyframes textChange {
+  0% {
+    content: "Happy Friendship Day Suar";
+  }
+  33% {
+    content: "Happy Belated marraige Anniversay daddy";
+  }
+  66% {
+    content: "Im so sorry bubsu";
+  }
+  100% {
+    content: "Maaf krde maindak";
+  }
+}
+
+/* ... Previous CSS rules ... */
+
+/* Additional CSS for the second page - Quiz Styling */
+/* ... Previous CSS rules ... */
+
+/* Additional CSS for the second page - Quiz */
+.quiz {
+  margin-top: 30px;
+  background-color: #04181f3e;;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.quiz h2 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.quiz p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.quiz input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc5f;
+  border-radius: 4px;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.quiz button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #04181f3e;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#answerFeedback {
+  color: #ff0000;
+  text-align: center;
+  margin-top: 10px;
+}

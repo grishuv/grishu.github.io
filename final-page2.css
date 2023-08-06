@@ -1,0 +1,39 @@
+/* ... Previous CSS rules ... */
+
+/* Additional CSS for the final page */
+header h1 {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.message {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+.message h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.message p {
+  font-size: 18px;
+  color: #333;
+}
+body {
+    background-image: url('https://i.pinimg.com/564x/13/20/e7/1320e73836aa106f0a626d4924ac2d25.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff; /* Set text color to white for better contrast with the background */
+  }
+  
